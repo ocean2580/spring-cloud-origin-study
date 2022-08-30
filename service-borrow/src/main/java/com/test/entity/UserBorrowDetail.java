@@ -1,5 +1,7 @@
-package com.test;
+package com.test.entity;
 
+import com.test.Book;
+import com.test.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
