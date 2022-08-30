@@ -1,6 +1,6 @@
 package com.test.mapper;
 
-import com.test.entity.Book;
+import com.test.Book;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

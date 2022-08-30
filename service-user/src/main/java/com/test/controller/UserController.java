@@ -1,6 +1,7 @@
 package com.test.controller;
 
-import com.test.entity.User;
+
+import com.test.User;
 import com.test.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

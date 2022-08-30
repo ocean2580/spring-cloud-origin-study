@@ -1,6 +1,6 @@
 package com.test.service.impl;
 
-import com.test.entity.Book;
+import com.test.Book;
 import com.test.mapper.BookMapper;
 import com.test.service.BookService;
 import org.springframework.stereotype.Service;

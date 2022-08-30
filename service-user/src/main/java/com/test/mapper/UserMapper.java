@@ -1,6 +1,6 @@
 package com.test.mapper;
 
-import com.test.entity.User;
+import com.test.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
