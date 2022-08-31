@@ -9,6 +9,7 @@
         <module>service-borrow</module>
         <module>commons</module>
         <module>eureka-server</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
