@@ -2,6 +2,7 @@ package com.test.controller;
 
 import com.test.entity.UserBorrowDetail;
 import com.test.service.BorrowService;
+import com.test.service.impl.BorrowServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
