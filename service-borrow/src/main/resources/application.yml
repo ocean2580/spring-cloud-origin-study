@@ -15,3 +15,7 @@ eureka:
     # 将eureka服务端指向自己
     service-url:
       defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
+
+feign:
+  circuitbreaker:
+    enabled: true
