@@ -16,4 +16,14 @@ spring:
         uri: lb://borrowservice  # 路由的地址，lb表示使用负载均衡到微服务，也可以使用http正常转发
         predicates: # 路由规则，断言什么请求会被路由
         - Path=/borrow/**  # 只要是访问的这个路径，一律都被路由到上面指定的服务
+          # 继续添加新的路由配置，这里就以书籍管理服务为例
+          # 注意-要对齐routes:
+      - id: service-book
+        uri: lb://bookservice
+        predicates:
+        - Path=/book/**
+        filters: # 添加过滤器
+        - AddRequestHeader=Test, HelloWorld!
+        # AddRequestHeader 就是添加请求头信息，其他工厂请查阅官网
+
 
